@@ -1,0 +1,58 @@
+{
+  "age": {
+    "type": "numeric",
+    "lower": 17,
+    "upper": 90,
+    "bins": 15
+  },
+  "education": {
+    "type": "categorical",
+    "categories": [
+      "HS",
+      "Some-college",
+      "Bachelors",
+      "Masters",
+      "Doctorate"
+    ]
+  },
+  "occupation": {
+    "type": "categorical",
+    "categories": [
+      "Service",
+      "Sales",
+      "Admin",
+      "Craft",
+      "Tech",
+      "Professional"
+    ]
+  },
+  "hours_per_week": {
+    "type": "numeric",
+    "lower": 1,
+    "upper": 99,
+    "bins": 10
+  },
+  "region": {
+    "type": "categorical",
+    "categories": [
+      "Northeast",
+      "Midwest",
+      "South",
+      "West"
+    ]
+  },
+  "sex": {
+    "type": "categorical",
+    "categories": [
+      "F",
+      "M"
+    ]
+  },
+  "income": {
+    "type": "categorical",
+    "categories": [
+      "<=50K",
+      ">50K"
+    ]
+  }
+}
